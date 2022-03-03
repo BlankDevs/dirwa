@@ -1,0 +1,236 @@
+/* ================================================
+	    1. Tariff Plans
+================================================ */
+
+    /* ================================================
+			1.1 Landing Section
+    ================================================ */
+
+    .tariff-plans-landing{
+        padding: 160px 0 40px 0;
+    }
+    .tariff-plans-landing .inner{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .tariff-plans-landing h2{
+        margin-bottom: 20px;
+    }
+
+/* ================================================
+        1.2 Tariff Plans Features
+================================================ */
+
+    .tariff-plans-features{
+        position: relative;
+        padding: 20px 0 40px 0;
+        margin: 20px 0 40px 0;
+    }
+    .tariff-plans-features:after{
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: -webkit-calc(50% - 260px);
+        width: -moz-calc(50% - 260px);
+        width: -o-calc(50% - 260px);
+        width: -ms-calc(50% - 260px);
+        width: calc(50% - 260px);
+        left: 0;
+        top: 0;
+        -webkit-border-top-right-radius: 20px;
+        -moz-border-top-right-radius: 20px;
+        -o-border-top-right-radius: 20px;
+        -ms-border-top-right-radius: 20px;
+        border-top-right-radius: 20px;
+        -webkit-border-bottom-right-radius: 20px;
+        -moz-border-bottom-right-radius: 20px;
+        -o-border-bottom-right-radius: 20px;
+        -ms-border-bottom-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        z-index: 1;
+    }
+    .tariff-plans-features .container{
+        position: relative;
+        z-index: 2;
+    }
+    .tariff-plans-features .inner{
+        max-width: 640px;
+        margin: 0 auto;
+    }
+    .tariff-plans-features .all{
+        overflow: hidden;
+    }
+    .tariff-plans-features .one{
+        padding: 10px 20px 20px 10px;
+        width: 50%;
+        float: left;
+    }
+    .tariff-plans-features .one .box{
+        -webkit-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -moz-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -o-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -ms-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -o-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+        background: #FFF;
+        padding: 40px 25px 30px 25px;
+        height: 200px;
+        position: relative;
+    }
+    .tariff-plans-features .one p.title{
+        margin-bottom: 10px;
+    }
+    .tariff-plans-features .one img{
+        height: 30px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+    }
+    .tariff-plans-page-tabs-content{
+        position: relative;
+        overflow: hidden;
+    }
+    .tariff-plans-page-tabs-content:after{
+        position: absolute;
+        content: '';
+        right: -200px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -o-border-radius: 100%;
+        -ms-border-radius: 100%;
+        border-radius: 100%;
+        height: 400px;
+        width: 400px;
+        top: 80px;
+        z-index: 1;
+    }
+    .tariff-plans-page-tabs-content > div{
+        position: relative;
+        z-index: 2;
+    }
+
+/* ================================================
+        1.3 Telkom More
+================================================ */
+
+    .telkom-more-description{
+        padding: 0px 0 80px 0;
+    }
+    .telkom-more-description .inner{
+        max-width: 860px;
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .telkom-more-description .inner .box{
+        -webkit-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -moz-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -o-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -ms-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -o-border-radius: 20px;
+        -ms-border-radius: 20px;
+        border-radius: 20px;
+    }
+    .telkom-more-description .inner .box .left{
+        background: rgba(196, 196, 196, .3);
+        padding: 40px;
+    }
+    .telkom-more-description .inner .box .right{
+        padding: 60px 40px;
+        background: #FFF;
+    }
+    .telkom-more-description .inner .box .left,
+    .telkom-more-description .inner .box .right{
+        height: 360px;
+    }
+    .telkom-more-description .inner .box .left img{
+        height: 80px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .telkom-more-description .inner .box .left h4.l-h-1{
+        line-height: 1;
+    }
+    .telkom-more-description .inner .box .left p.view-plan{
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    .telkom-more-description .inner .box .left p.view-plan-2{
+        margin-top: 40px;
+    }
+    .telkom-more-description .inner .box .left p.info{
+        font-size: 8px;
+        line-height: 1.5;
+        color: #565D6A;
+    }
+    .telkom-more-description .inner .box .right p.title{
+        margin-bottom: 15px;
+    }
+    .telkom-more-description .inner .box .right .list p{
+        margin-bottom: 10px;
+    }
+    .telkom-more-description .inner .box .right p.get-more{
+        margin-top: 40px;
+    }
+    .telkom-more-description .inner .box .right p{
+        display: flex;
+    }
+    .telkom-more-description .inner .box .right p img{
+        height: 20px;
+        margin-right: 10px;
+    }
+
+/* ================================================
+        1.4 Time for Change
+================================================ */
+
+    .time-for-change{
+        position: relative;
+        overflow: hidden;
+        padding: 20px 0 80px 0;
+    }
+    .time-for-change .container{
+        position: relative;
+        z-index: 2;
+    }
+    .time-for-change .inner{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .time-for-change .options{
+        padding: 30px 0;
+    }
+    .time-for-change .options img{
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .time-for-change .options p{
+        text-align: center;
+        max-width: 110px;
+        margin: 0 auto;
+    }
+    .time-for-change .things-to-know{
+        padding: 0 40px;
+    }
+    .time-for-change .info .one{
+        margin-bottom: 10px;
+    }
+    .time-for-change .info .one p{
+        display: flex;
+    }
+    .time-for-change .info p img{
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    
+
+    

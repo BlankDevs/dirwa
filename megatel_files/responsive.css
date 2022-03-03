@@ -1,0 +1,1450 @@
+	/* 	=================================================
+		0. Adjustments
+	================================================= */
+		
+		@media only screen and (max-width : 1360px) {
+
+			#home-landing .wrapper .container{
+				padding: 0 40px;
+			}
+			.lte-offering-landing .container,
+			.check-coverage .wrapper .container{
+				width: 100%;
+			}
+			#freeme-offering-landing .container{
+				padding: 120px 40px;
+			}
+			#freeme-offering-landing h1{
+				font-size: 90px;
+			}
+		}
+
+	/* 	=================================================
+		1. Media Query - Desktops & Laptops
+	================================================= */
+
+	    @media only screen and (max-width : 1220px) {
+
+			/* 	=================================================
+					1.1 Common
+			================================================= */
+
+				.container{
+					padding-left: 20px;
+					padding-right: 20px;
+					width: 920px;
+				}
+
+				/* ==== Header ==== */
+
+					header .container{
+						width: 100%;
+					}
+
+				/* ==== Footer ==== */
+
+					footer{
+						padding-bottom: 60px;
+					}
+					footer .col-1-3{
+						width: 100%;
+						text-align: center;
+					}
+					footer .companies img{
+						display: block;
+						margin: 0 auto;
+						margin-bottom: 10px;
+					}
+					footer ul.col-1-3{
+						margin-top: 30px;
+					}
+					footer ul.col-1-3 li{
+						float: none;
+						width: auto;
+						display: block;
+					}
+
+			/* 	=================================================
+					1.2 Home Page
+			================================================= */
+
+				#home-landing .wrapper .container{
+					padding: 0 20px;
+				}
+				#home-landing img {
+					bottom: -40px;
+					width: 320px;
+				}
+				.keeping-you-connected{
+					padding: 80px 0;
+				}
+				.keeping-you-connected .col-1-2{
+					width: 100%;
+				}
+				.keeping-you-connected h3, 
+				.keeping-you-in-control h3{
+					max-width: 100%;
+				}
+				.keeping-you-connected .col-1-2:nth-child(1),
+				.keeping-you-in-control .col-1-2:nth-child(1){
+					padding-right: 0;
+					margin-bottom: 40px;
+				}
+				.keeping-you-in-control .left{
+					padding-left: 40px;
+				}
+				.keeping-you-in-control .right{
+					padding-left: 40px;
+				}
+				.request-a-sim{
+					padding: 92px 0 80px 0;
+				}
+				.request-a-sim .full{
+					width: 100%;
+				}
+				.request-a-sim > div{
+					position: relative;
+					z-index: 2;
+				}
+				.request-a-sim img.sim{
+					width: 280px;
+					right: none;
+					left: 0;
+					top: 440px;
+					z-index: 1;
+				}
+				.request-a-sim h3 br{
+					display: none;
+				}
+
+			/* 	=================================================
+					1.3 Tariff Plans
+			================================================= */
+
+				.tariff-plans-page-tabs-content:after{
+					height: 300px;
+					width: 300px;
+					right: -150px;
+					top: 120px;
+				}
+
+			/* 	=================================================
+					1.4 Offering - LTE
+			================================================= */
+
+				.lte-offering-landing .wrapper{
+					padding: 92px 0;
+				}
+				.slow-internet{
+					padding: 40px 0 92px 0;
+				}
+				.slow-internet:after{
+					height: 120px;
+					width: 120px;
+					right: -60px;
+				}
+				#request-sim-dark-bg{
+					padding: 80px 0 168px 0;
+				}
+				#request-sim-dark-bg img.sim{
+					width: 280px;
+					top: 480px;
+				}
+				.free-sim-and-delivery .get-sim .col-1-2:nth-child(2){
+					padding-left: 0;
+				}
+				.free-sim-and-delivery .get-sim img{
+					margin-top: 80px;
+				}
+				.customer-support .col{
+					padding-right: 60px;
+				}
+				.customer-support .col:after{
+					right: 30px;
+				}
+
+			/* 	=================================================
+					1.5 Offering - MoNice
+			================================================= */
+
+				.monice-offering-landing{
+					padding: 80px 40px 0 40px;
+				}
+				.monice-offering-landing .wrapper{
+					padding: 120px 0;
+				}
+				.break-down .one .box{
+					padding: 20px 15px 20px 25px
+				}
+				.monice-intro{
+					padding: 0 0 60px 0;
+				}
+
+			/* 	=================================================
+					1.6 Offering - Freeme
+			================================================= */
+
+				#freeme-offering-landing h1{
+					font-size: 68px;
+				}
+				#freeme-offering-landing .col-1-2 h5{
+					font-size: 16px;
+				}
+				.offering-lte-page-tab-content:after{
+					height: 200px;
+					width: 200px;
+					right: -92px;
+				}
+				.freeme-intro{
+					padding: 0 0 60px 0;
+				}
+				.freeme-intro h1{
+					font-size: 60px;
+					line-height: 60px;
+				}
+				.freeme-intro .left{
+					padding-right: 20px;
+				}
+				.tell-me-more .left{
+					padding-right: 0px;
+				}
+				.tell-me-more .right{
+					padding-left: 40px;
+				}
+				#freeme-offering-freeme-bundles .one:nth-child(n + 2) {
+					display: none;
+				}
+
+			/* 	=================================================
+					1.7 Bundles
+			================================================= */
+
+				.bundles-landing .inner{
+					float: right;
+				}
+				.bundle-tabs-content .lte-bundles .one, 
+				.bundle-tabs-content .data-bundles .one{
+					width: 50%;
+				}
+				.bundle-tabs-content .freeme-bundles .one{
+					width: 100%;
+				}
+				.bundle-tabs-content .lte-bundles .one .box,
+				.bundle-tabs-content .data-bundles .one .box{
+					max-width: 260px;
+					margin: 0 auto;
+					display: block;
+				}
+				.bundle-tabs-content .info{
+					padding: 40px 0;
+				}
+				.bundle-tabs-content .info .f-left{
+					width: 100%;
+					padding-right: 0;
+					margin-bottom: 30px;
+				}
+				.bundle-tabs-content .info .f-left:last-child{
+					margin-bottom: 0;
+				}
+
+			/* 	=================================================
+					1.8 Support
+			================================================= */
+
+				.support-form{
+					padding: 60px 0;
+				}
+
+			/* 	=================================================
+					1.9 RICA
+			================================================= */
+
+				.rica-needs{
+					padding: 0 0 0px 0;
+				}
+				.rica-needs .all .one{
+					padding: 10px;
+				}
+				.rica-needs .all .box{
+					padding: 30px 10px 40px 15px
+				}
+				.rica-needs .all .box .i .desc{
+					width: 220px;
+				}
+				.get-your-sim-ricad img.sim{
+					left: 0px;
+					height: 300px;
+					bottom: 0px;
+				}
+				.rica-info img.mail{
+					display: none;
+				}
+				.rica-info .wrap{
+					width: -webkit-calc(100% - 40px);
+					width: -moz-calc(100% - 40px);
+					width: -o-calc(100% - 40px);
+					width: -ms-calc(100% - 40px);
+					width: calc(100% - 40px);
+				}
+				.rica-info .wrap .left{
+					padding: 0 40px 0 40px;
+				}
+				.rica-info .wrap .right{
+					padding: 0px 20px 0 0;
+				}
+
+			/* 	=================================================
+					1.9 Request SIM Continue
+			================================================= */
+
+				.request-a-sim-continue:before, 
+				.request-a-sim-continue:after{
+					display: none;
+				}
+		}
+
+	/* 	=================================================
+
+		2. Media Query - Tablets
+
+	================================================= */
+
+		@media (max-width: 980px) {
+
+			/* 	=================================================
+					2.1 Common
+			================================================= */
+
+				.container{
+					width: 640px;
+				}
+				.opacity-0{
+					-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+					filter: alpha(opacity=100) !important;
+					-moz-opacity: 1 !important;
+					-khtml-opacity: 1 !important;
+					opacity: 1 !important;
+				}
+
+			/* 	=================================================
+					2.2 Header
+			================================================= */
+
+				header{
+				}
+
+			/* 	=================================================
+					2.3 Footer
+			================================================= */
+				
+				footer{
+				}
+
+			/* 	=================================================
+					2.4 Home Page
+			================================================= */
+
+				#home-landing img {
+					right: 0;
+				}
+				.keeping-you-in-control .left{
+					width: 640px;
+					display: block;
+					float: none;
+					margin: 0 auto;
+					padding: 0 40px;
+					margin-bottom: 60px;
+				}
+				.keeping-you-in-control{
+					height: auto;
+					padding: 0 0 80px 0;
+				}
+				.keeping-you-in-control .right{
+					float: right;
+					width: 680px;
+				}
+				.keeping-you-in-control:before{
+					top: 210px;
+					height: 430px;
+					width: 540px;
+				}
+				.request-a-sim{
+					margin-top: -80px;
+					padding: 92px 0 160px 0;
+				}
+				.request-a-sim .full .col-1-2{
+					width: 100%;
+				}
+				.request-a-sim .full .col-1-2:nth-child(1){
+					padding-right: 0;
+					margin-bottom: 40px;
+				}
+				.request-a-sim img.sim{
+					top: 820px;
+				}
+				.mo-nice .col-1-2{
+					width: 100%;
+				}
+				.mo-nice .left{
+					height: 240px;
+					height: auto;
+				}
+				.mo-nice:before{
+					height: 260px;
+					width: -webkit-calc(100% - 80px);
+					width: -moz-calc(100% - 80px);
+					width: -o-calc(100% - 80px);
+					width: -ms-calc(100% - 80px);
+					width: calc(100% - 80px);
+				}
+				.mo-nice img.man{
+					height: 320px;
+					right: 0;
+					position: relative;
+					width: auto;
+					margin: 0 auto;
+					display: block;
+				}
+				.mo-nice .col-1-2:nth-child(1){
+					margin-bottom: 40px;
+					padding-top: 0;
+				}
+				.mo-nice .col-1-2:nth-child(2){
+					padding-left: 0;
+				}
+				.mo-nice .inner{
+					padding-top: 0;
+					max-width: 460px;
+					display: block;
+					margin: 0 auto;
+				}
+				.mo-nice .how-to-buy{
+					margin-left: 0;
+				}
+
+			/* 	=================================================
+					2.5 Tariff Plan
+			================================================= */
+				
+				.tariff-plans-landing{
+					padding: 120px 0 40px 0;
+				}
+				.tariff-plans-page-tabs-content:after{
+					height: 200px;
+					width: 200px;
+					right: -100px;
+					top: 400px;
+				}
+				.tariff-plans-features .one .box{
+					padding: 20px;
+				}
+				.tariff-plans-features .one p.title{
+					margin-bottom: 5px;
+				}
+				.telkom-more-description .inner .box .left,
+				.telkom-more-description .inner .box .right{
+					width: 100%;
+				}
+				.telkom-more-description .inner .box .left h4.l-h-1{
+					line-height: 1.2;
+					padding: 10px 0 0 0;
+				}
+				.telkom-more-description .inner .box .img-txt{
+					display: flex;
+				}
+				.telkom-more-description .inner .box .txt{
+					padding: 10px 0 0 20px;
+				}
+				.telkom-more-description .inner .box .left img{
+					margin-bottom: 0;
+				}
+				.telkom-more-description .inner .box .left p.view-plan{
+					margin-top: 20px;
+				}
+				.telkom-more-description .inner .box .left, 
+				.telkom-more-description .inner .box .right{
+					height: auto;
+				}
+				.telkom-more-description .inner .box .right{
+					padding: 40px
+				}
+
+			/* 	=================================================
+					2.6 Offering - LTE
+			================================================= */
+
+				.lte-offering-landing .wrapper{
+					padding: 60px 0;
+				}
+				.slow-internet .col-1-3,
+				.slow-internet .col-2-3{
+					width: 100%;
+				}
+				.slow-internet .col-1-3{
+					margin-bottom: 20px;
+				}
+				.why-use-lte .inner{
+					max-width: 100%;
+					padding: 0 20px 0 40px;
+				}
+				.why-use-lte .reasons .one{
+					width: 100%;
+					margin-bottom: 20px;
+				}
+				.why-use-lte .reasons .one p{
+					max-width: 100%;
+				}
+				.why-use-lte .img img{
+					right: 20px;
+				}
+				.check-coverage .wrapper{
+					width: -webkit-calc(100% - 40px);
+					width: -moz-calc(100% - 40px);
+					width: -o-calc(100% - 40px);
+					width: -ms-calc(100% - 40px);
+					width: calc(100% - 40px);
+				}
+				.check-coverage,
+				.check-coverage .wrapper{
+					padding: 40px 0;
+				}
+				.check-coverage .inner .col-1-2{
+					width: 100%;
+				}
+				.check-coverage .inner .col-1-2 h3{
+					font-size: 24px;
+					line-height: 1.5;
+					margin-bottom: 10px;
+				}
+				.check-coverage .inner .col-1-2 br{
+					display: none;
+				}
+				.check-coverage .inner .col-1-2:nth-child(1){
+					border-right: none;
+					border-bottom: solid 1px #1D325B;
+					padding-bottom: 30px;
+					margin-bottom: 30px;
+				}
+				.check-coverage .inner .col-1-2:nth-child(2){
+					padding-left: 0;
+				}
+				.check-coverage .inner .col-1-2 .steps > div{
+					margin-bottom: 15px;
+				}
+				.check-coverage .inner .col-1-2 .steps > div:last-child{
+					margin-bottom: 0;
+				}
+				.request-a-sim-lte-page{
+					margin-top: 0;
+				}
+				#request-sim-dark-bg{
+					padding: 92px 0 80px 0 !important;
+					overflow: visible;
+				}
+				#request-sim-dark-bg img.sim{
+					top: 800px;
+					z-index: 2;
+				}
+				.free-sim-and-delivery .left,
+				.free-sim-and-delivery .right{
+					width: 100%;					
+				}
+				.free-sim-and-delivery .left{
+					padding-right: 0;
+					margin-bottom: 10px;
+				}
+				.free-sim-and-delivery .right{
+					padding-left: 0;
+				}
+				.free-sim-and-delivery .get-sim, 
+				.free-sim-and-delivery .get-sim .col, 
+				.free-sim-and-delivery .mega-bundles{
+					height: 200px;
+				}
+				.free-sim-and-delivery .get-sim .col-1-2:nth-child(2){
+					padding-top: 48px;
+				}
+				.free-sim-and-delivery .get-sim img{
+					width: 75%;
+					margin-top: 48px;
+				}
+				.customer-support .flex{
+					display: block;
+					overflow: hidden;
+				}
+				.customer-support .col{
+					width: 100%;
+				}
+				.customer-support .col:after{
+					display: none;
+				}
+				.customer-support .col .flex{
+					display: flex;
+				}
+				.customer-support .col:nth-child(1){
+					margin-bottom: 20px;
+				}
+				.customer-support .col:nth-child(n + 2){
+					padding: 10px 0;
+				}
+
+			/* 	=================================================
+					2.7 Offering - MoNice
+			================================================= */
+
+				.monice-offering-landing h1{
+					font-size: 60px;
+				}
+				.monice-intro{
+					padding: 0;
+				}
+				.monice-intro .left,
+				.monice-intro .right{
+					width: 100%;
+				}
+				.monice-intro:after,
+				.break-down:after{
+					display: none;
+				}
+				.monice-intro .left{
+					padding-right: 0;
+				}
+				.monice-intro .right{
+					padding-left: 0;
+					padding-top: 0;
+				}
+				.monice-intro .right img{
+					width: 120px;
+					margin: 0 auto;
+					display: block;
+				}
+				.break-down .one{
+					width: 50%;
+				}
+				.break-down .one .box{
+					height: 120px;
+				}
+				.mo-info .left,
+				.mo-info .right{
+					width: 100%;
+				}
+				.mo-info{
+					padding: 0 0 80px 0;
+				}
+				.mo-info .inner{
+					padding: 0;
+				}
+				.mo-info .left img{
+					position: relative;
+					height: auto;
+					width: 300px;
+					top: 0;
+					right: 0;
+					margin: 0 auto;
+					display: block;					
+				}
+				.mo-info .right{
+					margin-top: 40px;
+				}
+				.mo-info:after{
+					width: -webkit-calc(100% - 80px);
+					width: -moz-calc(100% - 80px);
+					width: -o-calc(100% - 80px);
+					width: -ms-calc(100% - 80px);
+					width: calc(100% - 80px);
+					top: 40px;
+					height: 232px;
+				}
+
+			/* 	=================================================
+					2.8 Offering - FreeMe
+			================================================= */
+
+				#freeme-offering-landing .col-1-2{
+					width: 100%;
+				}
+				#freeme-offering-landing img{
+					left: 0;
+				}
+				.freeme-intro .left,
+				.freeme-intro .right{
+					width: 100%;
+				}
+				.freeme-intro .left{
+					padding-right: 0;
+				}
+				.freeme-intro .right{
+					padding-left: 0;
+					padding-top: 20px;
+				}
+				.freeme-intro .left p{
+					max-width: 100%;
+				}
+				.offering-lte-page-tab-content:after{
+					display: none;
+				}
+				.tell-me-more .left,
+				.tell-me-more .right{
+					width: 100%;
+					padding-left: 0;
+				}
+				.tell-me-more .right{
+					padding-left: 0;
+				}
+				.tell-me-more .left{
+					padding-right: 0;
+					margin-top: 30px;
+				}
+
+			/* 	=================================================
+					2.9 Bundles
+			================================================= */
+
+				.bundles-landing{
+					padding: 80px 20px 0 20px;
+				}
+				.bundles-landing .container{
+					overflow: visible;
+					height: 280px;
+				}
+				.bundles-landing img{
+					margin-left: -96px;
+					height: 280px;
+					bottom: 0;;
+				}
+				.bundles-landing .inner{
+					float: none;
+				}
+				.bundles-landing h1{
+					font-size: 48px;
+					line-height: 52px;
+				}
+				.bundle-tabs-content .container{
+					width: 100%;
+				}
+				.bundle-tabs-content .content .left{
+					width: 200px;
+					padding-right: 0px;
+				}
+				.bundle-tabs-content .content .right{
+					width: -webkit-calc(100% - 200px);
+					width: -moz-calc(100% - 200px);
+					width: -o-calc(100% - 200px);
+					width: -ms-calc(100% - 200px);
+					width: calc(100% - 200px);
+				}
+
+			/* 	=================================================
+					2.10 Support
+			================================================= */
+
+				.support-form .left,
+				.support-form .right{
+					width: 100%;
+				}
+				.support-form .left{
+					padding-right: 0;
+					margin-bottom: 20px;
+				}
+				.support-form .right{
+					padding-left: 0;
+				}
+				.support-form .socialize-holder{
+					padding: 20px;
+				}
+				.support-form .socialize{
+					max-width: 368px;
+					margin: 0 auto;
+					display: block;
+					margin-top: 0;
+				}
+				.support-form hr{
+					margin: 10px 0;
+				}
+
+			/* 	=================================================
+					2.11 RICA
+			================================================= */
+
+				.rica-info .wrap{
+					padding: 40px 0;
+				}
+				.rica-info .wrap .left,
+				.rica-info .wrap .right{
+					width: 100%;
+				}
+				.rica-info .wrap .left,
+				.rica-info .wrap .right{
+					padding: 0 40px;
+				}
+				.rica-info .wrap .right{
+					margin-top: 20px;
+				}
+				.rica-questions{
+					padding: 60px 0;
+				}
+				.rica-needs .all{
+					height: 510px;
+				}
+				.rica-needs .all .one{
+					width: 50%;
+				}
+				.rica-needs .all .box{
+					height: 228px;
+				}
+				.get-your-sim-ricad{
+					padding: 60px 0;
+				}
+				.get-your-sim-ricad .inner .col-1-2{
+					width: 100%;
+				}
+				.get-your-sim-ricad .inner .col-1-2:nth-child(1){
+					padding-right: 0;
+				}
+				.get-your-sim-ricad .inner .col-1-2:nth-child(2){
+					padding-left: 0;
+				}
+				.get-your-sim-ricad img.sim{
+					display: none;
+				}
+				.rica-info{
+					padding: 40px 0;
+				}
+
+			/* 	=================================================
+					2.12 Request a SIM
+			================================================= */
+
+				.request-sim-landing .inner{
+					padding: 120px 0 40px 0;
+				}
+				.request-sim-landing .steps{
+					max-width: 320px;
+					margin: 0 auto;
+					display: block;
+				}
+				.request-sim-landing .steps .center-center{
+					justify-content: left;
+					margin-bottom: 10px;
+				}
+				.request-sim-landing .steps p{
+					max-width: 100%;
+				}
+				#email-success .box{
+					max-width: 480px;
+					padding: 40px 30px;
+				}
+				#email-success .f-left{
+					display: block;
+					width: 100%;
+					height: auto;
+					padding-right: 0;
+				}
+				#email-success .f-left:after{
+					display: none;
+				}
+
+		}
+
+	@media (max-width: 740px){
+
+		.bundle-tabs-content .content .left,
+		.bundle-tabs-content .content .right{
+			width: 100%;
+		}
+		.bundle-tabs-content .content .left h3 br{
+			display: none;
+		}
+		#request-sim-dark-bg{
+			margin-bottom: 40px;
+		}
+		#lte-offering-lte-bundles .content .left h3{
+			margin-top: 0;
+			text-align: center;
+			font-size: 20px;
+		}
+		#lte-offering-lte-bundles .lte-bundles{
+			height: auto;
+		}
+		.bundle-content-offering-freeme-page:before{
+			height: 448px;
+		}
+		.bundle-content-offering-freeme-page{
+			margin-bottom: 60px;
+		}
+		.bundle-content-offering-freeme-page:before{
+			width: 120px;
+		}
+	}
+
+	/* 	=================================================
+		3. Media Query - Tablets
+	================================================= */
+
+		@media (max-width: 680px){
+
+			/* 	=================================================
+					3.1 Common
+			================================================= */
+
+				.container{
+					width: 100%;
+				}
+				.common-landing-box{
+					padding: 80px 20px 0 20px;
+				}
+				.common-landing-box .hold{
+					height: 360px;
+				}
+
+			/* 	=================================================
+					3.2 Home Page
+			================================================= */
+
+				#home-landing h1{
+					font-size: 72px;
+					line-height: 96px;
+					margin: -20px 0 -20px -5px
+				}
+				#home-landing img {
+					bottom: 0;
+					width: 168px;
+					right: 0;
+				}
+				.keeping-you-connected{
+					padding: 60px 0;
+				}
+				.keeping-you-connected .info{
+					display: block;
+				}
+				.keeping-you-connected .info .box{
+					display: block;
+					margin: 0 auto;
+					margin-bottom: 20px;
+				}
+				.keeping-you-connected .info .box:last-child{
+					margin-right: auto;
+					margin-bottom: 0;
+				}
+				.keeping-you-in-control .left{
+					width: 100%;
+					padding: 0 20px;
+					margin-bottom: 92px;
+				}
+				.keeping-you-in-control .right{
+					width: 100%;
+					float: none;
+					padding-left: 0;
+				}
+				.keeping-you-in-control .right .home-slider-holder{
+					width: 100%;
+				}
+				.keeping-you-in-control:before{
+					width: -webkit-calc(100% - 80px);
+					width: -moz-calc(100% - 80px);
+					width: -o-calc(100% - 80px);
+					width: -ms-calc(100% - 80px);
+					width: calc(100% - 80px);
+					top: 100%;
+					margin-top: -468px;
+				}
+				.request-a-sim{
+					padding: 92px 0 60px 0;
+				}
+				.request-a-sim img.sim,
+				#request-sim-dark-bg img.sim{
+					position: relative;
+					top: 0;
+					left: 0;
+					width: 220px;
+					margin: 0 auto;
+					display: block;
+				}
+				.mo-nice{
+					padding: 20px 0 60px 0;
+				}
+				.mo-nice:before{
+					top: 48px;
+					width: -webkit-calc(100% - 40px);
+					width: -moz-calc(100% - 40px);
+					width: -o-calc(100% - 40px);
+					width: -ms-calc(100% - 40px);
+					width: calc(100% - 40px);
+				}
+			
+			/* 	=================================================
+					3.3 Tariff Plans
+			================================================= */
+
+				.lte-offering-tabs{
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+				.lte-offering-tabs ul{
+					width: 100%;
+				}
+				.lte-offering-tabs ul li{
+					float: none;
+					display: block;
+				}
+				.tariff-plans-page-tabs-content:after{
+					display: none;
+				}
+				.tariff-plans-features{
+					margin: 20px 0 0 0;
+				}
+				.tariff-plans-features .one{
+					width: 100%;
+					padding: 10px 20px 20px 10px;
+				}
+				.tariff-plans-features .one .box{
+					max-width: 320px;
+					margin: 0 auto;
+					height: auto;
+					padding: 20px 20px 52px 20px;
+				}
+				.tariff-plans-features:after{
+					width: 200px;
+				}
+				.telkom-more-description .inner .box .img-txt{
+					display: block;
+				}
+				.telkom-more-description .inner .box .txt{
+					padding: 0;
+				}
+				.telkom-more-description .inner .box .left{
+					padding: 20px 30px;
+					text-align: center;
+				}
+				.telkom-more-description .inner .box .right{
+					padding: 30px;
+				}
+				.telkom-more-description .inner .box .left img{
+					height: 48px;
+					margin: 0 auto;
+				}
+				.telkom-more-description .inner .box .left p.view-plan{
+					margin-top: 10px;
+				}
+				.telkom-more-description .inner .box .right .list .col-1-2{
+					width: 100%;
+				}
+				.time-for-change .options .col-1-5{
+					width: 100%;
+				}
+				.time-for-change .options .one{
+					overflow: hidden;
+					text-align: left;
+				}
+				.time-for-change .options .one img{
+					width: 48px;
+				}
+				.time-for-change .options .one img,
+				.time-for-change .options .one p{
+					float: left;
+					text-align: left;
+				}
+				.time-for-change .options p{
+					padding: 20px 0 0 20px;
+					max-width: -webkit-calc(100% - 80px);
+					max-width: -moz-calc(100% - 80px);
+					max-width: -o-calc(100% - 80px);
+					max-width: -ms-calc(100% - 80px);
+					max-width: calc(100% - 80px);
+					font-size: 16px;
+				}
+				.time-for-change .things-to-know{
+					padding: 0;
+				}
+
+			/* 	=================================================
+					3.4 Offering - LTE
+			================================================= */
+
+				.lte-offering-landing{
+					padding: 80px 20px 0 20px;
+				}
+				.slow-internet{
+					padding: 0 0 40px 0;
+				}
+				.slow-internet:after{
+					display: none;
+				}
+				.why-use-lte{
+					padding: 0;
+				}
+				.why-use-lte .img{
+					width: -webkit-calc(100% - 40px);
+					width: -moz-calc(100% - 40px);
+					width: -o-calc(100% - 40px);
+					width: -ms-calc(100% - 40px);
+					width: calc(100% - 40px);
+					height: auto;
+					padding-top: 30px;
+				}
+				.why-use-lte .img img{
+					position: relative;
+					width: 120px;
+					height: auto;
+					margin: 0 auto;
+					display: block;
+				}
+				.why-use-lte .col-3-5{
+					width: 100%;
+					padding: 48px 20px 0 20px;
+				}
+				.why-use-lte .col-3-5 .inner{
+					padding: 0;
+					max-width: 100%;
+				}
+				.free-sim-and-delivery .get-sim img{
+					width: auto;
+					height: 80px;
+					margin-top: 72px;
+				}
+				.free-sim-and-delivery .get-sim h1{
+					font-size: 30px;
+					line-height: 40px;
+				}
+				.faq-list h4.title{
+					max-width: 100%;
+				}
+
+			/* 	=================================================
+					3.5 Offering - MoNice
+			================================================= */
+
+				.monice-offering-landing{
+					padding: 80px 20px 0 20px;
+				}
+				.monice-offering-landing h1{
+					font-size: 40px;
+				}
+				.break-down .one{
+					width: 100%;
+				}
+				.break-down .one .box{
+					height: auto;
+					padding: 25px 15px 40px 20px;
+				}
+
+			/* 	=================================================
+					3.6 Offering - Freeme
+			================================================= */
+
+				#freeme-offering-landing .container{
+					padding: 60px 20px;
+				}
+				#freeme-offering-landing img{
+					display: none;
+				}
+				#freeme-offering-landing h1{
+					font-size: 40px;
+					line-height: 52px;
+					margin-top: 15px;
+				}
+				#freeme-offering-landing h5{
+					line-height: 18px;
+				}
+				.freeme-intro .includes .col-1-2{
+					width: 100%;
+				}
+				.tell-me-more{
+					padding: 0 0 40px 0;
+				}
+				.tell-me-more .more .one{
+					width: 100%;
+				}
+				.tell-me-more .more .one .box{
+					padding: 25px 20px 52px 20px;
+					height: auto;
+				}
+
+			/* 	=================================================
+					3.6 Bundles
+			================================================= */
+
+				.bundles-landing .container{
+					overflow: hidden;
+					height: auto;
+					padding: 0;
+				}
+				.bundles-landing .inner{
+					height: auto;
+					padding: 48px 0;
+				}
+				.bundles-landing img{
+					display: none;
+				}
+
+			/* 	=================================================
+					3.7 RICA
+			================================================= */
+
+				.rica-info .wrap .info .col-1-2{
+					width: 100%;
+				}
+				.rica-info .wrap .info .col-1-2:nth-child(1){
+					padding-right: 0;
+				}
+				.rica-info .wrap .info .col-1-2:nth-child(1):after{
+					display: none;
+				}
+				.rica-needs .all{
+					height: 1020px;
+				}
+				.rica-needs .all .one{
+					width: 100%;
+				}
+				.rica-needs .all .box{
+					max-width: 100%;
+					padding: 30px;
+				}
+
+			/* 	=================================================
+					3.8 Pop Ups
+			================================================= */
+				
+				#feedback-bg .box{
+					max-width: -webkit-calc(100% - 40px);
+					max-width: -moz-calc(100% - 40px);
+					max-width: -o-calc(100% - 40px);
+					max-width: -ms-calc(100% - 40px);
+					max-width: calc(100% - 40px);
+					padding: 40px 30px;
+				}
+				#feedback-bg span.wpcf7-list-item{
+					display: block !important;
+					margin-bottom: 10px;
+				}
+				#feedback-bg input[type="radio"], 
+				#feedback-bg input[type="checkbox"]{
+					flex: 0 0 24px;
+				}
+
+			/* 	=================================================
+					3.9 FAQ
+			================================================= */
+
+				.faqs .results .questions .answer .feedback{
+					display: block;
+				}
+				.faqs .results .questions .answer .feedback .btns{
+					justify-content: left;
+					border-right: none;
+				}
+				.faqs .results .questions .answer .feedback .right{
+					padding-left: 0;
+				}
+		}
+
+	/* 	=================================================
+		N. Pop Ups
+	================================================= */
+	
+		@media (max-height: 760px){
+
+			#feedback-bg{
+				overflow-y: scroll;
+			}
+			#feedback-bg .inner{
+				height: 920px;
+			}
+		}
+
+		@media (max-height: 520px){
+			#email-success{
+				overflow-y: scroll;
+			}
+			#email-success .inner{
+				height: 520px;
+			}
+		}
+
+	/* 	=================================================
+		N. Bundle Tabs
+	================================================= */
+		
+		@media (max-width: 1020px){
+			
+			.bundle-tabs{
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			.bundle-tabs ul{
+				max-width: 480px;
+			}
+			.bundle-tabs ul li{
+				width: 50%;
+			}
+		}
+
+		@media (max-width: 480px){
+
+			.bundle-tabs ul{
+				max-width: 100%;
+			}			
+			.bundle-tabs ul li{
+				width: 100%;
+			}
+		}
+
+	/* 	=================================================
+		N. Header
+	================================================= */
+
+		@media (max-width: 860px){
+			
+			header .logo{
+				padding-top: 26px;
+				margin-left: 52px;
+				width: 120px;
+			}
+			nav{
+				position: fixed;
+				background: #fff;
+				top: 0;
+				left: 0;
+				width: 220px;
+				height: 100vh;
+				text-align: left;
+				padding: 0;
+				overflow-y: scroll;
+				padding: 120px 0 240px 0;
+				-webkit-box-shadow: 0px 0px 40px rgba(0,0,0,.4);
+				-moz-box-shadow: 0px 0px 40px rgba(0,0,0,.4);
+				-o-box-shadow: 0px 0px 40px rgba(0,0,0,.4);
+				-ms-box-shadow: 0px 0px 40px rgba(0,0,0,.4);
+				box-shadow: 0px 0px 40px rgba(0,0,0,.4);
+				z-index: 99997;
+				left: -220px;
+			}
+			nav ul li{
+				display: block;
+				border-bottom: solid 1px rgba(0,0,0,.1);
+				margin-right: 0;
+			}
+			nav ul li:first-child{
+				border-top: solid 1px rgba(0,0,0,.1);
+			}
+			nav ul li a{
+				display: block;
+				padding: 0 20px;
+				line-height: 48px;
+			}
+			nav ul li.current_page_item a:before{
+				display: none;
+			}
+			nav ul li ul{
+				display: block;
+				-webkit-transition-timing-function: none;
+			   	-moz-transition-timing-function: none;
+			   	-o-transition-timing-function: none;
+			   	-ms-transition-timing-function: none;
+			   	transition-timing-function: none;
+			   	-webkit-animation: none;
+			   	-moz-animation: none;
+			   	-o-animation: none;
+			   	-ms-animation: none;
+			   	animation: none;
+			   	-webkit-animation-fill-mode: none;
+			   	-moz-animation-fill-mode: none;
+			   	-o-animation-fill-mode: none;
+			   	-ms-animation-fill-mode: none;
+			   	animation-fill-mode: none;
+			   	-webkit-box-shadow: none;
+		        -moz-box-shadow: none;
+		        -o-box-shadow: none;
+		        -ms-box-shadow: none;
+		        box-shadow: none;
+		        background: transparent;
+		        position: relative;
+		        top: 0;
+		        width: 100%;
+		        padding: 0;
+			}
+			nav ul li ul li:after{
+				background:rgba(0,0,0,.1);
+			}
+			nav ul li ul li:last-child:after{
+				background: transparent;
+			}
+			nav ul li ul li a{
+				color: #2E293A;
+				text-transform: none;
+				padding: 0 20px 0 40px;
+				font-size: 13px;
+				text-align: left;
+			}
+			img#menuButton{
+				display: block;
+			}
+		}
+
+    /* 	=================================================
+		4. Media Query - Mobiles
+	================================================= */
+
+	    @media (max-width: 520px){
+
+			#lte-offering-page .wrapper{
+				background: #E3E3E3 !important;
+			}
+			.lte-offering-landing .container .f-right{
+				float: left;
+				width: 100%;
+			}
+	    	.bundle-tabs-content .lte-bundles .one, 
+			.bundle-tabs-content .data-bundles .one{
+				width: 100%;
+			}
+			.bundle-tabs-content .freeme-bundles .one .col-2-5,
+			.bundle-tabs-content .freeme-bundles .one .col-3-5{
+				padding: 15px 10px
+			}
+			.bundle-tabs-content .lte-bundles .one .box .lower h1, 
+			.bundle-tabs-content .freeme-bundles .one .box .lower h1, 
+			.bundle-tabs-content .data-bundles .one .box .lower h1{
+				font-size: 26px;
+				line-height: 48px;
+				padding-right: 18px;
+			}
+			.bundle-tabs-content .lte-bundles .one .box .lower h1 span, 
+			.bundle-tabs-content .freeme-bundles .one .box .lower h1 span, 
+			.bundle-tabs-content .data-bundles .one .box .lower h1 span{
+				font-size: 12px;
+			}
+			.bundle-tabs-content .lte-bundles, 
+			.bundle-tabs-content .freeme-bundles, 
+			.bundle-tabs-content .data-bundles{
+				height: auto;
+			}
+			.request-a-sim-continue .inner table tr td{
+				display: block;
+			}
+			.request-a-sim-continue .inner table tr td:nth-child(1){
+				width: 100%;
+			}
+			.request-a-sim-continue .inner table tr td{
+				padding: 4px 0;
+			}
+			.request-a-sim-continue .choose{
+				display: block;
+				margin-top: 20px;
+			}
+			.request-a-sim-continue .choose .radio{
+				text-align: right;
+				margin-top: 10px;
+			}
+			#email-success .box{
+				max-width: -webkit-calc(100% - 40px);
+				max-width: -moz-calc(100% - 40px);
+				max-width: -o-calc(100% - 40px);
+				max-width: -ms-calc(100% - 40px);
+				max-width: calc(100% - 40px);
+			}
+	    }
+
+
+
+	

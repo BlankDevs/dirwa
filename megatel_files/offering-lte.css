@@ -1,0 +1,402 @@
+/* ================================================
+	    1. Offering - LTE Page
+================================================ */
+
+    /* ================================================
+			1.1 Landing Section
+    ================================================ */
+
+        .lte-offering-landing{
+            padding: 80px 40px 0 40px;
+        }
+        .lte-offering-landing .wrapper{
+            -webkit-border-radius: 16px;
+            -moz-border-radius: 16px;
+            -o-border-radius: 16px;
+            -ms-border-radius: 16px;
+            border-radius: 16px;
+            padding: 120px 0;
+            text-align: right;
+        }
+        .lte-offering-landing h1{
+            font-size: 102px;
+            line-height: 1;
+            margin: -5px 0 -5px -5px;
+        }
+        .lte-offering-tabs{
+            padding: 40px 0;
+            text-align: center;
+        }
+        .lte-offering-tabs ul,
+        .lte-offering-tabs ul li.active:before{
+            -webkit-border-radius: 20px;
+			-moz-border-radius: 20px;
+			-o-border-radius: 20px;
+			-ms-border-radius: 20px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .lte-offering-tabs ul{
+            display: inline-block;
+            background: #F0F0F0;
+        }
+        .lte-offering-tabs ul li{
+            float: left;
+            padding: 0;
+            position: relative;
+        }
+        .lte-offering-tabs ul li:after{
+            position: absolute;
+            content: '';
+            top: 15px;
+            right: -1px;            
+            height: 12px;
+            width: 1px;
+            background: #C4C4C4;
+            z-index: 1;
+        }
+        .lte-offering-tabs ul li.active:before{
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: -webkit-calc(100% + 2px);
+			width: -moz-calc(100% + 2px);
+			width: -o-calc(100% + 2px);
+			width: -ms-calc(100% + 2px);
+			width: calc(100% + 2px);
+            left: -1px;
+            top: 0;
+            z-index: 2;
+        }
+        .lte-offering-tabs ul li.active:after,
+        .lte-offering-tabs ul li:last-child:after{
+            display: none;
+        }
+        .lte-offering-tabs ul li a{
+            display: block;
+            padding: 0 30px;
+            color: #1D325B;
+            font-size: 14px;
+            line-height: 40px;
+            position: relative;
+            z-index: 3;
+        }
+        .lte-offering-tabs ul li.active a{
+            color: #FFF;
+        }
+        .lte-offering-tabs-content{
+            display: none;
+        }
+        .lte-offering-tabs-content-active{
+            display: block;
+        }
+
+    /* ================================================
+			1.2 Slow Internet
+    ================================================ */
+
+        #lte-content-section .bundle-tabs-content:after{
+            display: none;
+        }
+        .slow-internet{
+            padding: 60px 0 180px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .slow-internet .inner{
+            max-width: 860px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        .slow-internet:after{
+            position: absolute;
+            content: '';
+            z-index: 1;
+            right: -80px;
+            bottom: 0;
+            height: 200px;
+            width: 200px;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -o-border-radius: 100%;
+            -ms-border-radius: 100%;
+            border-radius: 100%;
+        }
+
+    /* ================================================
+			1.3 Why use LTE
+    ================================================ */
+        
+        .why-use-lte{
+            padding: 0;
+            overflow: hidden;
+        }
+        .why-use-lte .inner{
+            max-width: 680px;
+            display: inline-block;
+            padding-left: 40px;
+        }
+        .why-use-lte .img{
+            height: 400px;
+            background: #e3e3e3;
+            position: relative;
+            -webkit-border-top-right-radius: 20px;
+			-moz-border-top-right-radius: 20px;
+			-o-border-top-right-radius: 20px;
+			-ms-border-top-right-radius: 20px;
+            border-top-right-radius: 20px;
+            -webkit-border-bottom-right-radius: 20px;
+			-moz-border-bottom-right-radius: 20px;
+			-o-border-bottom-right-radius: 20px;
+			-ms-border-bottom-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        .why-use-lte .img img{
+            position: absolute;
+            height: 380px;
+            bottom: 0;
+            right: 92px;
+        }
+        .why-use-lte .reasons{
+            padding: 30px 0;
+            overflow: hidden;
+        }
+        .why-use-lte .reasons .one{
+            float: left;
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        .why-use-lte .reasons .one > div{
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+        .why-use-lte .reasons .one img{
+            height: 40px;
+            margin-right: 10px;
+        }
+        .why-use-lte .reasons .one p{
+            max-width: 200px;
+        }
+
+    /* ================================================
+			1.4 Check coverage
+    ================================================ */
+
+        .check-coverage{
+            padding: 80px 0 0 0;
+            position: relative;
+            z-index: 2;
+        }
+        .check-coverage .steps img{
+            height: 30px;
+            margin-right: 12px;
+        }
+        .check-coverage .wrapper{
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -o-border-radius: 30px;
+            -ms-border-radius: 30px;
+            border-radius: 30px;
+            width: -webkit-calc(100% - 80px);
+			width: -moz-calc(100% - 80px);
+			width: -o-calc(100% - 80px);
+			width: -ms-calc(100% - 80px);
+            width: calc(100% - 80px);
+            -webkit-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -moz-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -o-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -ms-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            background: #FFF;
+            margin: 0 auto;
+            padding: 68px 0;
+        }
+        .check-coverage .inner{
+            max-width: 920px;
+            margin: 0 auto;
+        }
+        .check-coverage .inner .col-1-2:nth-child(1){
+            padding-right: 80px;
+            border-right: solid 1px #1D325B;
+        }
+        .check-coverage .inner .col-1-2:nth-child(2){
+            padding-left: 80px;
+        }
+        .request-a-sim-lte-page{
+            margin-top: -80px !important;
+            overflow: hidden;
+            padding-top: 160px !important;
+        }
+        #lte-offering-tabs-content .bundle-tabs-content:after{
+            display: none;
+        }
+        #lte-offering-lte-bundles{
+            margin-bottom: 80px;
+        }
+        #lte-offering-lte-bundles .lte-bundles{
+            height: 340px;
+            overflow: hidden;
+            background: #FFF;
+        }
+        #lte-offering-lte-bundles .bundle-tabs-content .btn{
+            text-align: right;
+        }
+        #lte-offering-lte-bundles .bundle-tabs-content .btn .button{
+            display: inline-block;
+        }
+        #lte-offering-lte-bundles .content .left h3{
+            margin-top: 102px;
+        }
+
+    /* ================================================
+			1.5 LTE compare
+    ================================================ */
+
+        .lte-compare{
+            padding: 20px 0 40px 0;
+            display: block;
+        }
+        .lte-compare .inner{
+            max-width: 534px;
+            margin: 0 auto;
+        }
+        .lte-compare .inner hr{
+            outline: none;
+            border: none;
+            height: 1px;
+            width: 360px;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .lte-compare table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 60px;
+        }
+        .lte-compare table tr{
+            border-bottom: solid 1px rgba(29, 50, 91, 0.5);
+        }
+        .lte-compare table tr td{
+            text-align: center;
+        }
+        .lte-compare table tr th,
+        .lte-compare table tr td{
+            text-align: center;
+            padding: 12px 10px;
+        }
+        .lte-compare table tr td:nth-child(1){
+            text-align: left;
+        }
+        .lte-compare table tr td img{
+            height: 24px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .free-sim-and-delivery{
+            padding: 80px 0 40px 0;
+        }
+        .free-sim-and-delivery .left{
+            padding-right: 15px;
+        }
+        .free-sim-and-delivery .right{
+            padding-left: 15px;
+        }
+        .free-sim-and-delivery .get-sim,
+        .free-sim-and-delivery .mega-bundles{
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -o-border-radius: 30px;
+            -ms-border-radius: 30px;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        .free-sim-and-delivery .get-sim,
+        .free-sim-and-delivery .get-sim .col,
+        .free-sim-and-delivery .mega-bundles{
+            height: 260px;
+        }
+        .free-sim-and-delivery .get-sim img{
+            width: 96%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            margin-top: 48px;
+        }
+        .free-sim-and-delivery .get-sim{
+            background: #C4C4C4;
+            position: relative;
+        }
+        .free-sim-and-delivery .get-sim h1{
+            font-size: 48px;
+            margin: -5px 0 -5px -5px;
+        }
+        .free-sim-and-delivery .get-sim .col-1-2:nth-child(2){
+            padding-left: 40px;
+        }
+        .free-sim-and-delivery .get-sim:after{
+            position: absolute;
+            content: 'FREE SIM & Delivery';
+            font-size: 14px;
+            font-weight: 600;;
+            color: #FFF;
+            line-height: 40px;
+            text-align: left;
+            padding-left: 20px;
+            -webkit-border-top-left-radius: 20px;
+			-moz-border-top-left-radius: 20px;
+			-o-border-top-left-radius: 20px;
+			-ms-border-top-left-radius: 20px;
+            border-top-left-radius: 20px;
+            -webkit-border-bottom-left-radius: 20px;
+			-moz-border-bottom-left-radius: 20px;
+			-o-border-bottom-left-radius: 20px;
+			-ms-border-bottom-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            width: 248px;
+            top: 30px;
+            right: 0;
+            z-index: 2;
+        }
+
+    /* ================================================
+			1.6 FAQ List
+    ================================================ */
+
+        .faq-list h4.title{
+            max-width: 280px;
+        }
+        .faq-list .list{
+        }
+        .faq-list .list .one{
+            border-bottom: solid 1px #C4C4C4;
+        }
+        .faq-list .list .one:first-child{
+            border-top: solid 1px #C4C4C4;
+        }
+        .faq-list .list .one p.question{
+            padding: 20px 40px 20px 0px;
+            cursor: pointer;
+            position: relative;
+        }
+        .faq-list .list .one p.question:after{
+            position: absolute;
+            content: url(../images/pages/offering/lte/plus.svg);
+            top: 20px;
+            right: 20px;
+        }
+        .faq-list .list .one p.minus:after{
+            content: url(../images/pages/offering/lte/minus.svg);
+        }
+        .faq-list .list .one .answer{
+            padding: 0 40px 20px 10px;
+            display: none;
+        }
+        .faq-list .list .one .answer p,
+        .faq-list .list .one .answer span{
+            color: #1D325B;
+            font-size: 14px;
+        }
+    

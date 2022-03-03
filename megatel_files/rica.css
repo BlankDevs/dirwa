@@ -1,0 +1,375 @@
+/* ================================================
+	    1. RICA Page
+================================================ */
+
+    /* ================================================
+			1.1 Landing Section
+    ================================================ */
+
+        .rica-landing .inner{
+            padding: 120px 0 40px 0;
+        }
+        .rica-landing .inner h4{
+            margin: 20px 0;
+        }
+        .rica-landing .inner p{
+            max-width: 460px;
+        }
+
+    /* ================================================
+            1.2 RICA Needs
+    ================================================ */
+
+        .rica-needs{
+            padding: 20px 0 40px 0;
+        }
+        .rica-needs .container{
+            overflow: visible;
+            position: relative;
+            z-index: 4;
+        }
+        .rica-needs .all{
+            height: 290px;
+        }
+        .rica-needs .all .one{
+            padding: 15px 20px;
+        }
+        .rica-needs .all .box{
+            max-width: 300px;
+            background: #FFF;
+            -webkit-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -moz-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -o-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -ms-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            height: 260px;
+            position: relative;
+            padding: 52px 32px 20px 32px;
+        }
+        .rica-needs .all .box img{
+            height: 32px;
+        }
+        .rica-needs .all .box h6{
+            margin: 5px 0 5px 0;
+        }
+        .rica-needs .all .box .i{
+            position: absolute;
+            bottom: 24px;
+            left: 32px;
+            cursor: pointer;
+            z-index: 20;
+        }
+        .rica-needs .all .box .i img{
+            height: 20px;
+            width: 20px;
+        }
+        .rica-needs .all .box .i .desc{
+            position: absolute;
+            z-index: 19;
+            left: -40px;
+            background: #1D325B;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            -ms-border-radius: 10px;
+            border-radius: 10px;
+            width: 290px;
+            padding: 30px;
+            top: 38px;
+            display: none;
+        }
+        .rica-needs .all .box .i .desc:after{
+            position: absolute;
+            content: '';
+            top: -10px;
+            left: 40px;
+            height: 0;
+            width: 0;
+            border-left: solid 12px transparent;
+            border-right: solid 12px transparent;
+            border-bottom: solid 10px #1D325B;
+        }
+        .rica-needs .all .box .i .desc p{
+            color: #FFF;
+            font-size: 11px;
+            line-height: 16px;
+        }
+        .rica-needs .all .box .i:hover .desc{
+            display: block;
+        }
+
+    /* ================================================
+            1.3 RICA Questions
+    ================================================ */
+
+        .rica-questions{
+            padding: 60px 0 120px 0;
+        }
+        .rica-questions ul{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .rica-questions ul li{
+            position: relative;
+            padding: 20px;
+        }
+        .rica-questions ul li:after,
+        .rica-questions ul li:nth-child(1):before{
+            position: absolute;
+            content: '';
+            left: 0;
+            width: 100%;
+            height: 1px;
+            z-index: 2;
+        }
+        .rica-questions ul li:after{
+            bottom: 0;
+        }
+        .rica-questions ul li:nth-child(1):before{
+            top: 0;
+        }
+        .rica-questions ul li h5{
+            cursor: pointer;
+        }
+        .rica-questions ul li h5:after{
+            position: absolute;
+            content: url(../images/pages/rica/plus.svg);
+            right: 15px;
+            top: 20px;
+            z-index: -1;
+        }
+        .rica-questions ul li h5.minus:after{
+            content: url(../images/pages/rica/minus.svg);
+        }
+        .rica-questions ul li p{
+            display: none;
+            padding: 20px 10px 10px 10px;
+        }
+
+    /* ================================================
+            1.4 Get Your SIM RICA
+    ================================================ */
+
+        .get-your-sim-ricad{
+            padding: 120px 0 80px 0;
+            position: relative;
+        }
+        .get-your-sim-ricad .container{
+            position: relative;
+            z-index: 2;
+        }
+        .get-your-sim-ricad img.sim{
+            position: absolute;
+            bottom: -40px;
+            height: 420px;
+            z-index: 1;
+            left: -webkit-calc(50% - 680px);
+            left: -moz-calc(50% - 680px);
+            left: -o-calc(50% - 680px);
+            left: -ms-calc(50% - 680px);
+            left: calc(50% - 680px);
+        }
+        .get-your-sim-ricad .inner{
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        .get-your-sim-ricad .inner .col-1-2{
+            text-align: left;
+        }
+        .get-your-sim-ricad .inner .col-1-2:nth-child(1){
+            padding-right: 40px;
+        }
+        .get-your-sim-ricad .inner .col-1-2:nth-child(2){
+            padding: 0 10px 20px 40px;
+        }
+        .get-your-sim-ricad .inner .input-gradient{
+            margin-bottom: 10px;
+        }
+        .get-your-sim-ricad .inner .file-inputs{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .get-your-sim-ricad .inner .file-inputs .one{
+            height: 30px;
+            display: block;
+            position: relative;
+            margin-bottom: 10px;
+            /* padding-left: 40px; */
+        }
+        .get-your-sim-ricad .inner .file-inputs .one:before{
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            z-index: -1;
+            height: 26px;
+            width: 26px;
+            border: solid 1px #FFF;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -o-border-radius: 100%;
+            -ms-border-radius: 100%;
+            border-radius: 100%;
+        }
+        .get-your-sim-ricad .inner .file-inputs .one:after{
+            position: absolute;
+            content: url(../images/pages/rica/plus-white.svg);
+            left: 6px;
+            top: 6px;
+            z-index: -1;
+        }
+        .get-your-sim-ricad .inner .file-inputs .one p{
+            color: #FFF;
+            font-size: 13px;
+            line-height: 30px;
+            padding-left: 40px;
+        }
+        .get-your-sim-ricad .inner .file-inputs .one input[type="file"]{
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            -o-box-shadow: none;
+            -ms-box-shadow: none;
+            box-shadow: none;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: inherit;
+            display: block;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -o-border-radius: 0;
+            -ms-border-radius: 0;
+            border-radius: 0;
+            z-index: 3;
+            cursor: pointer;
+            z-index: 2;
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            filter: alpha(opacity=0);
+            -moz-opacity: 0;
+            -khtml-opacity: 0;
+            opacity: 0;
+        }
+        .get-your-sim-ricad .inner p.files-supported{
+            margin-bottom: 20px;
+        }
+        .get-your-sim-ricad .inner p.files-supported span{
+            font-style: italic;
+        }
+
+    /* ================================================
+            1.5 RICA Info
+    ================================================ */
+
+        .rica-info{
+            padding: 80px 0;
+            position: relative;
+        }
+        .rica-info .wrap{
+            float: right;
+            background: #FFF;
+            -webkit-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -moz-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -o-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -ms-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -webkit-border-top-left-radius: 20px;
+            -moz-border-top-left-radius: 20px;
+            -o-border-top-left-radius: 20px;
+            -ms-border-top-left-radius: 20px;
+            border-top-left-radius: 20px;
+            -webkit-border-bottom-left-radius: 20px;
+            -moz-border-bottom-left-radius: 20px;
+            -o-border-bottom-left-radius: 20px;
+            -ms-border-bottom-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding: 80px 0;
+        }
+        .rica-info img.mail{
+            position: absolute;
+            height: 200px;
+            left: -webkit-calc(100% - 1200px - 154px);
+            left: -moz-calc(100% - 1200px - 154px);
+            left: -o-calc(100% - 1200px - 154px);
+            left: -ms-calc(100% - 1200px - 154px);
+            left: calc(100% - 1200px - 154px);
+            top: 180px;
+        }
+        .rica-info .wrap .inner{
+            max-width: 980px;
+        }
+        .rica-info .wrap .left{
+            padding: 0 40px 0 160px;
+        }
+        .rica-info .wrap .left p{
+            max-width: 280px;
+        }
+        .rica-info .wrap .right{
+            padding: 40px 40px 0 0;
+        }
+        .rica-info .wrap .info .col-1-2:nth-child(1){
+            padding-right: 30px;
+            position: relative;
+        }
+        .rica-info .wrap .info .col-1-2:nth-child(1):after{
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 1px;
+            background: #1D325B;
+            top: 0;
+            right: 30px;
+        }
+        .rica-info .wrap .info ul{
+            margin-top: 10px;
+        }
+        .rica-info .wrap .info ul li{
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+        .rica-info .wrap .info ul li:before{
+            left: 0;
+            top: 0;
+            height: 16px;
+            width: 16px;
+        }
+        .rica-info .wrap .info ul li:before,
+        .rica-info .wrap .info ul li:after{
+            position: absolute;
+            content: '';
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -o-border-radius: 100%;
+            -ms-border-radius: 100%;
+            border-radius: 100%;
+        }
+        .rica-info .wrap .info ul li:after{
+            left: 2px;
+            top: 2px;
+            height: 12px;
+            width: 12px;
+            background: #FFF;
+        }
+        .rica-info .wrap .info ul li p{
+            line-height: 1.2;
+        }
+
+    /* ================================================
+            1.6 RICA My SIM
+    ================================================ */
+
+        .rica-my-sim{
+        }
+        .rica-my-sim .inner{
+            padding-top: 80px;
+        }
+        .rica-my-sim iframe{
+            width: 100%;
+            min-height: 100vh;
+            height: 100%;
+            display: block;
+            outline: none;
+            border: none;
+        }
+    

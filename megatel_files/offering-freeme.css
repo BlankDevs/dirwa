@@ -1,0 +1,154 @@
+/* ================================================
+	    1. Offering - FreeMe Page
+================================================ */
+
+    /* ================================================
+			1.1 Landing Section
+    ================================================ */
+
+        #freeme-offering-landing{
+            overflow: hidden;
+        }
+        #freeme-offering-landing .wrapper{
+            padding: 0;
+        }
+        #freeme-offering-landing .container{
+            position: relative;
+            padding: 168px 0;
+        }
+        #freeme-offering-landing img{
+            position: absolute;
+            top: 0;
+            left: 120px;
+            height: 100%;
+        }
+        #freeme-offering-freeme-bundles .freeme-bundles{
+            background: transparent;
+            height: 228px;
+            overflow: hidden;
+        }
+        .bundle-content-offering-freeme-page{
+            padding-top: 60px;
+            margin-bottom: 180px;
+            position: relative;
+        }
+        .bundle-content-offering-freeme-page:before{
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 360px;
+            width: 50%;
+            -webkit-border-top-left-radius: 30px;
+			-moz-border-top-left-radius: 30px;
+			-o-border-top-left-radius: 30px;
+			-ms-border-top-left-radius: 30px;
+            border-top-left-radius: 30px;
+            -webkit-border-bottom-left-radius: 30px;
+			-moz-border-bottom-left-radius: 30px;
+			-o-border-bottom-left-radius: 30px;
+			-ms-border-bottom-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+
+    /* ================================================
+            1.2 FreeMe Intro
+    ================================================ */
+
+        .offering-lte-page-tab-content{
+            position: relative;
+            overflow: hidden;
+        }
+        .offering-lte-page-tab-content:after{
+            position: absolute;
+            content: '';
+            top: 220px;
+            right: -172px;
+            height: 380px;
+            width: 380px;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -o-border-radius: 100%;
+            -ms-border-radius: 100%;
+            border-radius: 100%;
+        }
+        .freeme-intro{
+            padding: 20px 0 120px 0;
+        }
+        .freeme-intro h1{
+            font-size: 90px;
+            line-height: 1;
+        }
+        .freeme-intro .left{
+            padding-right: 40px;
+        }
+        .freeme-intro .right{
+            padding-top: 60px;
+            padding-left: 40px;
+        }
+        .freeme-intro .left p{
+            max-width: 420px;
+        }
+        .freeme-intro .includes .col-1-2{
+            margin-bottom: 15px;
+        }
+        .freeme-intro .includes img{
+            height: 40px;
+            margin-right: 12px;
+        }
+
+    /* ================================================
+            1.3 Tell Me More
+    ================================================ */
+
+        .tell-me-more{
+            padding: 0 0 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .tell-me-more .left{
+            padding-right: 60px;
+        }
+        .tell-me-more .more{
+            overflow: hidden;
+        }
+        .tell-me-more .more .one{
+            float: left;
+            width: 50%;
+            padding: 10px 20px 20px 10px;
+        }
+        .tell-me-more .more .one .box{
+            -webkit-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -moz-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -o-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -ms-box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            box-shadow: 6px 5px 11px 5px rgba(0,0,0,.1);
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -o-border-radius: 20px;
+            -ms-border-radius: 20px;
+            border-radius: 20px;
+            background: #FFF;
+            padding: 40px 25px 30px 25px;
+            height: 200px;
+            position: relative;
+        }
+        .tell-me-more .more p.title{
+            margin-bottom: 10px;
+        }
+        .tell-me-more .more img{
+            position: absolute;
+            height: 30px;
+            bottom: 15px;
+            right: 15px;
+        }
+        .tell-me-more .right h1{
+            font-size: 48px;
+            line-height: 1;
+        }
+        .tell-me-more .right p{
+            max-width: 460px;
+        }
+       
+
+        

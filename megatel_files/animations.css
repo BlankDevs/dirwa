@@ -1,0 +1,105 @@
+
+    /* ====================================================
+		1. Continuous Hover
+    ==================================================== */
+    
+        .hover{
+            -webkit-animation: hover-animation 1.2s ease-in-out alternate infinite;
+            -moz-animation: hover-animation 1.2s ease-in-out alternate infinite;
+            -o-animation: hover-animation 1.2s ease-in-out alternate infinite;
+            -ms-animation: hover-animation 1.2s ease-in-out alternate infinite;
+            animation: hover-animation 1.2s ease-in-out alternate infinite;
+            -webkit-animation-fill-mode: both;
+            -moz-animation-fill-mode: both;
+            -o-animation-fill-mode: both;
+            -ms-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        @-webkit-keyframes hover-animation{
+            0% { -webkit-transform: translateY(-15px); }
+            100% { -webkit-transform: translateY(0px); }
+        }
+        @-moz-keyframes hover-animation{
+            0% { -moz-transform: translateY(-15px); }
+            100% { -moz-transform: translateY(0px); }
+        }
+        @-o-keyframes hover-animation{
+            0% { -o-transform: translateY(-15px); }
+            100% { -o-transform: translateY(0px); }
+        }
+        @-ms-keyframes hover-animation{
+            0% { -ms-transform: translateY(-15px); }
+            100% { -ms-transform: translateY(0px); }
+        }
+        @keyframes hover-animation{
+            0% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+
+    /* ====================================================
+		2. Continuous Rotating
+    ==================================================== */
+
+        .rotating{
+            -webkit-animation: rotating 4s linear infinite;
+            -moz-animation: rotating 4s linear infinite;
+            -ms-animation: rotating 4s linear infinite;
+            -o-animation: rotating 4s linear infinite;
+            animation: rotating 4s linear infinite;
+        }
+        @-webkit-keyframes rotating {
+            from {
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes rotating {
+            from {
+                -ms-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to {
+                -ms-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+    /* ====================================================
+		3. Pulse Animation
+    ==================================================== */
+
+        .pulse{
+            -webkit-animation: pulse 3s linear infinite;
+            -moz-animation: pulse 3s linear infinite;
+            -o-animation: pulse 3s linear infinite;
+            -ms-animation: pulse 3s linear infinite;
+            animation: pulse 3s linear infinite;
+        }
+
+        @-webkit-keyframes pulse {
+            0%, 70%, 100% { transform: translateY(0); }
+            75%{ transform: translateY(2px); }
+            80%{ transform: translateY(-2px); }
+            85%{ transform: translateY(1px); }
+            90%{ transform: translateY(-1px); }
+        }
+
+        @keyframes pulse {
+            0%, 70%, 100% { transform: translateY(0); }
+            75%{ transform: translateY(2px); }
+            80%{ transform: translateY(-2px); }
+            85%{ transform: translateY(1px); }
+            90%{ transform: translateY(-1px); }
+        }

@@ -1,0 +1,289 @@
+/* ================================================
+	    1. Request a SIM Page
+================================================ */
+
+    /* ================================================
+			1.1 Landing Section
+    ================================================ */
+
+        .request-sim-landing .inner{
+            padding: 120px 0 60px 0;
+        }
+        .request-sim-landing .inner{
+            max-width: 860px;
+            margin: 0 auto;
+        }
+        .request-sim-landing hr{
+            outline: none;
+            border: none;
+            height: 1px;
+            width: 100%;
+            margin: 20px 0;
+        }
+        .request-sim-landing .steps{
+            padding-top: 20px;
+        }
+        .request-sim-landing .steps img{
+            height: 48px;
+        }
+        .request-sim-landing .steps p{
+            max-width: 180px;
+            text-align: left;
+            line-height: 18px;
+            padding: 5px 40px 5px 20px;
+        }
+
+    /* ================================================
+            1.2 Request a SIM Dark
+    ================================================ */
+
+        #request-sim-dark-bg{
+            padding: 80px 0;
+            margin-bottom: 120px;
+            margin-top: 0;
+        }
+        #request-sim-dark-bg img.sim{
+            width: 600px;
+            top: 260px;
+        }
+
+/* ================================================
+	    2. Request a SIM Page - Continue
+================================================ */
+
+    /* ================================================
+            2.1 Form
+    ================================================ */
+
+        .request-a-sim-continue{
+            position: relative;
+            overflow: hidden;
+        }
+        .request-a-sim-continue:before,
+        .request-a-sim-continue:after{
+            position: absolute;
+            content: url(../images/pages/request-a-sim/ellipse.svg);
+        }
+        .request-a-sim-continue:before{
+            left: -200px;
+            top: 120px;
+        }
+        .request-a-sim-continue:after{
+            right: -200px;
+            bottom: 0px;
+        }
+        .request-a-sim-continue .inner{
+            max-width: 680px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+        }
+        .request-a-sim-continue .inner hr{
+            outline: none;
+            border: none;
+            height: 1px;
+            width: 100%;
+            margin: 10px 0;
+        }
+        .request-a-sim-continue .choose,
+        .request-a-sim-continue .choose .radio span label{
+            display: flex;
+        }
+        .request-a-sim-continue .choose .radio{
+            margin-left: auto;
+        }
+        .request-a-sim-continue .choose .radio span label{
+            font-size: 13px;
+            line-height: 24px;
+            cursor: pointer;
+        }
+        .request-a-sim-continue .choose .radio .last{
+            padding-left: 15px;
+        }
+        .request-a-sim-continue .choose .i{
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+            position: relative;
+            margin-left: 8px;
+            color: transparent;
+            cursor: pointer;
+        }
+        .request-a-sim-continue .choose .i:after{
+            position: absolute;
+            content: url(../images/pages/request-a-sim/info.svg);
+            top: 0;
+            left: 0;
+        }
+        .request-a-sim-continue .choose span.i span{
+            position: absolute;
+            background: #1D325B;
+            color: #FFF;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            -ms-border-radius: 10px;
+            border-radius: 10px;
+            font-size: 11px;
+            line-height: 15px;
+            left: -20px;
+            top: 32px;
+            width: 240px;
+            padding: 20px;
+            z-index: 22;
+            display: none;
+        }
+        .request-a-sim-continue .choose span.i span:after{
+            position: absolute;
+            content: '';
+            top: -8px;
+            left: 20px;
+            height: 0;
+            width: 0;
+            border-left: solid 10px transparent;
+            border-right: solid 10px transparent;
+            border-bottom: solid 8px #1D325B;
+        }
+        .request-a-sim-continue .choose span.i:hover span{
+            display: block;
+        }
+        .request-a-sim-continue .inner table{
+            width: 100%;
+            table-layout: fixed;
+            margin: 20px 0;
+        }
+        .request-a-sim-continue .inner table tr td:nth-child(1){
+            width: 200px;
+        }
+        .request-a-sim-continue .inner table tr td{
+            padding: 8px 10px;
+        }
+        .request-a-sim-continue .inner table tr td p{
+            font-size: 13px;
+        }
+        .request-a-sim-continue .inner table tr td p.example{
+            font-size: 9px;
+            color: #565D6A;
+            line-height: 11px;
+        }
+        .request-a-sim-continue input[type="radio"],
+        .request-a-sim-continue input[type="checkbox"]{
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            -o-box-shadow: none;
+            -ms-box-shadow: none;
+            box-shadow: none;
+            height: 24px;
+            width: 24px;
+            padding: 0;            
+            position: relative;
+            margin-right: 8px;
+        }
+        .request-a-sim-continue input[type="radio"],
+        .request-a-sim-continue input[type="checkbox"],
+        .request-a-sim-continue input[type="radio"]:after,
+        .request-a-sim-continue input[type="checkbox"]:after,
+        .request-a-sim-continue input[type="radio"]:checked:after,
+        .request-a-sim-continue input[type="checkbox"]:checked:after{
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -o-border-radius: 100%;
+            -ms-border-radius: 100%;
+            border-radius: 100%;
+        }
+        .request-a-sim-continue input[type="radio"]:after,
+        .request-a-sim-continue input[type="checkbox"]:after{
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            content: '';
+            background: #FFF;
+            height: 20px;
+            width: 20px;
+        }
+        .request-a-sim-continue input[type="radio"]:checked:after,
+        .request-a-sim-continue input[type="checkbox"]:checked:after{
+            position: absolute;
+            top: 6px;
+            left: 6px;
+            content: '';
+            height: 12px;
+            width: 12px;
+        }
+
+    /* ================================================
+            2.2 Email Success
+    ================================================ */
+
+        #email-success{
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: rgba(1,8,28,.7);
+            -webkit-backdrop-filter: blur(10px);
+            -moz-backdrop-filter: blur(10px);
+            -o-backdrop-filter: blur(10px);
+            -ms-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            z-index: 999999;
+            display: none;
+        }
+        #email-success,
+        #email-success .inner{
+            width: 100%;
+            height: 100vh;
+        }
+        #email-success .box{
+            background: #F7F7F7;
+            max-width: 800px;
+            padding: 40px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -o-border-radius: 20px;
+            -ms-border-radius: 20px;
+            border-radius: 20px;
+            position: relative;
+            -webkit-box-shadow: 0px 0px 20px 20px rgba(0,0,0,.1);
+            -moz-box-shadow: 0px 0px 20px 20px rgba(0,0,0,.1);
+            -o-box-shadow: 0px 0px 20px 20px rgba(0,0,0,.1);
+            -ms-box-shadow: 0px 0px 20px 20px rgba(0,0,0,.1);
+            box-shadow: 0px 0px 20px 20px rgba(0,0,0,.1);
+        }
+        #email-success .f-left{
+            position: relative;
+            height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-right: 40px;
+        }
+        #email-success .f-left:after{
+            height: 100%;
+            width: 1px;
+            position: absolute;
+            top: 0;
+            right: 20px;
+            content: '';
+        }
+        #email-success .f-left:last-child:after{
+            display: none;
+        }
+        #email-success .f-left p{
+            font-size: 13px;
+            line-height: 1.5;
+        }
+        #email-success .btn{
+            margin-top: 30px;
+            text-align: center;
+        }
+        #email-success .btn .button{
+            margin: 0 auto;
+        }
+        #email-success img.close{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            height: 28px;
+            width: 28px;
+            cursor: pointer;
+        }
